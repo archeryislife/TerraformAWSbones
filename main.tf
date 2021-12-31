@@ -1,4 +1,4 @@
-# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 # A couple of notes;
 # 1.  This is a bear bones setup of a VPC, Public subnet, and two Private subnets. It also contains all the required infrastructure and route tables to make
 #     a SSH connection to a single ec2 instance created. Where you want to take this from here is up to you.
@@ -12,7 +12,7 @@
 #     https://www.youtube.com/watch?v=SLB_c_ayRMo
 # 6.  The providers.tf file is setup to be used with shared credentials in the .aws directory in your linux home directory. You will probably want to customize
 #     this to your setup before running the code
-#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 #This defines your vpc and it's cidr range to be used. Default is 172.22.231.0/24
 resource "aws_vpc" "examplevpc" {
