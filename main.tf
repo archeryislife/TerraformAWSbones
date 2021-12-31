@@ -10,6 +10,8 @@
 #     you have suggestions or want to fork it feel free and have fun!! :)
 # 5.  If you are new to TF(terraform) please go watch the following youtube video, it is not mine but is a really good to get beginners started.
 #     https://www.youtube.com/watch?v=SLB_c_ayRMo
+# 6.  The providers.tf file is setup to be used with shared credentials in the .aws directory in your linux home directory. You will probably want to customize
+#     this to your setup before running the code
 #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 #This defines your vpc and it's cidr range to be used. Default is 172.22.231.0/24
